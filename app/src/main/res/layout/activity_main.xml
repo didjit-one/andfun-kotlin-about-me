@@ -16,7 +16,13 @@ limitations under the License. -->
 <layout>
 
 <!-- TODO (07) Add a data block for with a variable myName for the MyName class.  -->
-
+<data>
+    <variable
+              name="MyName"
+    type="com.example.android.aboutme.MyName"
+    </data>
+    
+    
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
