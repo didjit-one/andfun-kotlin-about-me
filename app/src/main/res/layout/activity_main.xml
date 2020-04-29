@@ -13,6 +13,8 @@ limitations under the License. -->
 
 <!-- TODO (02) Use a <layout> tag to surround the LinerLayout. -->
 
+<layout>
+
 <!-- TODO (07) Add a data block for with a variable myName for the MyName class.  -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,3 +115,5 @@ limitations under the License. -->
 
     </ScrollView>
 </LinearLayout>
+    
+    </layout>
