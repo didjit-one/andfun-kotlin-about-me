@@ -18,9 +18,9 @@ limitations under the License. -->
 <!-- TODO (07) Add a data block for with a variable myName for the MyName class.  -->
 <data>
     <variable
-              name="MyName"
+    name="MyName"
     type="com.example.android.aboutme.MyName"
-    </data>
+</data>
     
     
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,7 +38,7 @@ limitations under the License. -->
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/name"
+        android:text="@={myName.name}
         android:textAlignment="center" />
 
     <TextView
@@ -47,6 +47,7 @@ limitations under the License. -->
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:text="@={myName.nickname}
         android:visibility="gone" />
 
     <EditText
